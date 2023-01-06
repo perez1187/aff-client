@@ -1,0 +1,35 @@
+.Logo {
+    /* background-image: url(../../assets/smclogo.svg); */
+    width: 330px;
+}
+
+/* .Logo:hover{
+    width: 350px;
+} */
+
+
+/* Extra small devices (phones, 600px and down) */
+/* logo we should chage from l */
+@media only screen and (max-width: 600px) {
+    .Logo {width: 210px;}
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .Logo {width: 210px;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .Logo {width: 210px;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .Logo {width: 330px;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .Logo {width: 330px;}
+}

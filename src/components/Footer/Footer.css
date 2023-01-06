@@ -1,0 +1,13 @@
+
+.FooterLinks{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    /* justify-content:"space-between"; */
+    /* align-self: ; */
+    
+    margin-right: 7px;
+
+    color: #FFFFFF;
+}

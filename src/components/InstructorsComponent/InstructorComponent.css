@@ -1,0 +1,249 @@
+.InstructorSection {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-color: aqua; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.InstructorProfileBox{
+    /* position: absolute; */
+    width: 400px;
+    height: 350px;
+
+    /* background-color: red; */
+
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    
+    /* align-self: flex-end; */
+    background: #23262F;
+    box-shadow: 43.2266px 64.6818px 172.907px rgba(8, 15, 40, 0.09);
+    border-radius: 21.787px;
+}
+
+.InstructorProfileBox:hover {
+    transform: scale(1.05);
+  }
+
+/* Avatar, name, title, game, opinions */
+.InstructorProfileBoxPersonalData{ 
+    width: 380px;
+    height: 200px;
+    /* background-color: red; */
+    display: flex;
+    /* align-items: center; */
+}
+
+.InstructorProfileBoxAvatar {
+    background-color: azure;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content:flex-end;
+  
+    margin-left: 20px;
+    margin-top: 20px;
+    filter: drop-shadow(-10.8935px 21.787px 43.574px rgba(8, 20, 32, 0.2));
+    border-radius: 20px;
+}
+
+.InstructorProfileBoxCountryFlag {
+    /* background-color: rgb(241, 240, 255); */
+    width: 40px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    /* align-self: center; */
+    border-radius: 5px;
+    /* border-end-end-radius: 20px; */
+    
+}
+
+.ICInstructorData{
+    display: flex;
+    flex-direction: column;
+}
+
+.ICInstructorTitleName{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    /* margin-top: 35px; */
+    margin-left: 17px;
+
+}
+
+.ICInstructorTitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+
+    /* margin-right: 10px; */
+    margin-left: 17px;
+    margin-top: 17px;
+
+    color: #FFFFFF;
+}
+
+.ICInstructorName{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 38px;
+
+    margin-right: 5px;
+
+    color: #FFFFFF;
+}
+
+.ICInstructorTypeOFGame {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height */
+    margin-left: 17px;
+
+    color: #FFFFFF;
+}
+
+.ICInstructorRankingBox{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ICInstructorRankingBox2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ICInstructorCRdef{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height */
+    margin-left: 17px;
+    width: 150px;
+    
+    
+    color: #FFFFFF; 
+}
+
+.ICPrivateTraining{
+    margin-top: 40px;
+    margin-left: 21px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    /* line-height: 38px; */
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+.ICPTRectangle {
+    width: 360px;
+    height: 40px;
+    align-self: center;
+    margin-top: 17px;
+
+    background: #141822;
+    border-radius: 6px;
+
+}
+
+.ICInstructorActualRanking{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height */
+    /* margin-left: 17px; */
+    width: 150px;
+        
+    color: #FFFFFF; 
+}
+
+.ICPrive{
+    height: 23px;
+    margin-left: 18px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 22px; */
+    /* identical to box height, or 110% */
+
+    letter-spacing: -0.2px;
+
+    color: #FFFFFF;
+}
+
+.ICPriveIcon {
+    height: 23px;
+    margin-right: 10px;
+    
+}
+
+.ICPriveDescription{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 110% */
+    
+    letter-spacing: -0.2px;
+    
+    color: #FFFFFF;
+}
+
+.ICBorder{
+    width: 22px;
+    height: 0px;
+    /* left: 225px;
+    top: 896px; */
+    align-self: center;
+
+    border: 1px solid #3B70FC;
+    transform: rotate(90deg);
+}
+
+.ICPrivePrize{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 110% */
+
+    letter-spacing: -0.2px;
+
+    color: #FECB46;
+}

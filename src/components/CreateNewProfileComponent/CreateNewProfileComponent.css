@@ -1,0 +1,35 @@
+.CNPContainer{
+    margin-left: 5%;
+}
+
+.CNPForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.CNPLabel{
+    display: flex;
+    flex-direction: row;
+}
+
+.CNPLabelName{
+    width: 200px;
+}
+
+.createProfileButton{
+    margin-bottom: 50px;
+}
+
+.CNPBreakSpace{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.CNPSelectTitle {
+    background-color: white;
+    width: 250px;
+}
+
+.CNPError{
+    color:red;
+}
