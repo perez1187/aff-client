@@ -38,7 +38,7 @@ function LogoNavbar() {
             
         </Typography>  */}
         <div>
-            <img src={logo} alt="React Logo" />
+            {/* <img src={logo} alt="React Logo" /> */}
         </div>
         
         <PetsIcon             
